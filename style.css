@@ -15,9 +15,11 @@ body {
 
 .container {
   text-align: center;
-  background-color: rgba(255, 192, 203, 0.8); /* Rosa com um pouco de transparência para destacar o texto */
-  padding: 20px; /* Adiciona algum espaço ao redor do conteúdo */
+  background-color: rgba(255, 192, 203, 0.8); /* Rosa claro com um pouco de transparência */
+  padding: 20px; /* Adiciona espaço ao redor do conteúdo */
   border-radius: 10px; /* Arredonda os cantos */
+  border: 2px solid black; /* Adiciona um contorno preto */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra para dar profundidade */
 }
 
 h1 {
