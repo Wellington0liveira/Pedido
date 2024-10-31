@@ -1,13 +1,13 @@
 document.getElementById("sim").addEventListener("click", () => {
   const container = document.querySelector(".container");
-  container.innerHTML = "<h1>Você clicou em sim</h1>";
+  container.innerHTML = "<h1>A cada dia mais próxima do plano</h1>";
   mostrarBotaoVoltar(); // Mostra o botão Voltar
 });
 
 document.getElementById("nao").addEventListener("click", () => {
   const container = document.querySelector(".container");
   container.innerHTML = `
-    <h1>Você clicou em não</h1>
+    <h1>VAI ACEITAR SIMM 😡😡</h1>
     <button id="novo-sim" class="btn">Sim</button>
   `;
 
@@ -29,7 +29,7 @@ function mostrarBotaoVoltar() {
 function voltarPagina() {
   const container = document.querySelector(".container");
   container.innerHTML = `
-    <h1>O contrato vc ja fez, minha parte agora é oficializar. Aceitaria casar comigo dia 10/10/2030?</h1>
+    <h1>O contrato vc ja fez, minha parte agora é fazer o pedido. Aceitaria casar comigo dia 10/10/2030? 💍</h1>
     <div class="buttons">
       <button id="sim" class="btn">Sim</button>
       <button id="nao" class="btn">Não</button>
@@ -58,7 +58,7 @@ function adicionarEventos() {
     aumentarTamanhoBotao();
 
     document.getElementById("novo-sim").addEventListener("click", () => {
-      container.innerHTML = "<h1>Você clicou em sim</h1>";
+      container.innerHTML = "<h1>A cada dia mais próxima do plano</h1>";
       mostrarBotaoVoltar(); // Mostra o botão Voltar
     });
   });
