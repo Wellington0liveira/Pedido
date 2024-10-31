@@ -11,6 +11,9 @@ document.getElementById("nao").addEventListener("click", () => {
     <button id="novo-sim" class="btn">Sim</button>
   `;
 
+  // Aumenta o tamanho do botão "Sim" a cada segundo
+  aumentarTamanhoBotao();
+
   document.getElementById("novo-sim").addEventListener("click", () => {
     container.innerHTML = "<h1>Você clicou em sim</h1>";
     mostrarBotaoVoltar(); // Mostra o botão Voltar
@@ -51,11 +54,30 @@ function adicionarEventos() {
       <button id="novo-sim" class="btn">Sim</button>
     `;
 
+    // Aumenta o tamanho do botão "Sim"
+    aumentarTamanhoBotao();
+
     document.getElementById("novo-sim").addEventListener("click", () => {
       container.innerHTML = "<h1>Você clicou em sim</h1>";
       mostrarBotaoVoltar(); // Mostra o botão Voltar
     });
   });
+}
+
+// Função para aumentar o tamanho do botão
+function aumentarTamanhoBotao() {
+  const botaoSim = document.getElementById("novo-sim");
+  let tamanho = 20; // Tamanho inicial do botão em pixels
+  const tamanhoMaximo = 100; // Tamanho máximo do botão em pixels
+
+  const intervalo = setInterval(() => {
+    if (tamanho < tamanhoMaximo) {
+      tamanho += 5; // Aumenta o tamanho em 5 pixels
+      botaoSim.style.fontSize = tamanho + "px"; // Atualiza o tamanho do botão
+    } else {
+      clearInterval(intervalo); // Para o intervalo quando o tamanho máximo for atingido
+    }
+  }, 1000); // Aumenta a cada 1000 milissegundos (1 segundo)
 }
 
 // Adiciona os eventos aos botões iniciais
