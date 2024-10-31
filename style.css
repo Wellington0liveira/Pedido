@@ -9,13 +9,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #ffb3d9; /* Rosa clarinho */
+  background-color: #ffb3d9; /* Rosa */
   font-family: Arial, sans-serif;
 }
 
 .container {
   text-align: center;
-  background-color: rgba(255, 192, 203, 0.8); /* Rosa claro com um pouco de transparência */
+  background-color: rgba(255, 192, 203, 0.8); /* Rosa claro diferente */
   padding: 20px; /* Adiciona espaço ao redor do conteúdo */
   border-radius: 10px; /* Arredonda os cantos */
   border: 2px solid black; /* Adiciona um contorno preto */
