@@ -68,7 +68,7 @@ function adicionarEventos() {
 function aumentarTamanhoBotao() {
   const botaoSim = document.getElementById("novo-sim");
   let tamanho = 20; // Tamanho inicial do botão em pixels
-  const tamanhoMaximo = 100; // Tamanho máximo do botão em pixels
+  const tamanhoMaximo = 300; // Tamanho máximo do botão em pixels
 
   const intervalo = setInterval(() => {
     if (tamanho < tamanhoMaximo) {
