@@ -15,7 +15,7 @@ document.getElementById("nao").addEventListener("click", () => {
   aumentarTamanhoBotao();
 
   document.getElementById("novo-sim").addEventListener("click", () => {
-    container.innerHTML = "<h1>Você clicou em sim</h1>";
+    container.innerHTML = "<h1>A cada dia mais próxima do plano</h1>";
     mostrarBotaoVoltar(); // Mostra o botão Voltar
   });
 });
@@ -43,7 +43,7 @@ function voltarPagina() {
 function adicionarEventos() {
   document.getElementById("sim").addEventListener("click", () => {
     const container = document.querySelector(".container");
-    container.innerHTML = "<h1>Você clicou em sim</h1>";
+    container.innerHTML = "<h1>A cada dia mais próxima do plano</h1>";
     mostrarBotaoVoltar(); // Mostra o botão Voltar
   });
 
