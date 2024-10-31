@@ -9,12 +9,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #add8e6; /* Azul claro */
+  background-color: #ffb3d9; /* Rosa clarinho */
   font-family: Arial, sans-serif;
 }
 
 .container {
   text-align: center;
+  background-color: rgba(255, 192, 203, 0.8); /* Rosa com um pouco de transparência para destacar o texto */
+  padding: 20px; /* Adiciona algum espaço ao redor do conteúdo */
+  border-radius: 10px; /* Arredonda os cantos */
 }
 
 h1 {
