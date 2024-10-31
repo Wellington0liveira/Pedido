@@ -50,7 +50,7 @@ function adicionarEventos() {
   document.getElementById("nao").addEventListener("click", () => {
     const container = document.querySelector(".container");
     container.innerHTML = `
-      <h1>Você clicou em não</h1>
+      <h1>VAI ACEITAR SIMM 😡😡</h1>
       <button id="novo-sim" class="btn">Sim</button>
     `;
 
