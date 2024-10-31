@@ -1,7 +1,4 @@
 document.getElementById("sim").addEventListener("click", () => {
-  alert("Você clicou em Sim!");
-});
-
-document.getElementById("nao").addEventListener("click", () => {
-  alert("Você clicou em Não!");
+  const container = document.querySelector(".container");
+  container.innerHTML = "<h1>Você clicou em sim</h1>";
 });
