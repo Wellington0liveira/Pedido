@@ -29,7 +29,7 @@ function mostrarBotaoVoltar() {
 function voltarPagina() {
   const container = document.querySelector(".container");
   container.innerHTML = `
-    <h1>O contrato vc ja fez, minha parte agora é oficializar. Aceitaria casar comigo dia 10/10/2030?</h1>
+    <h1>teste</h1>
     <div class="buttons">
       <button id="sim" class="btn">Sim</button>
       <button id="nao" class="btn">Não</button>
